@@ -1,0 +1,12 @@
+[
+  { "pr": "owner/repo#1", "file": "src/pager.rs", "line": 87, "bug": "off-by-one" },
+  { "pr": "owner/repo#1", "file": "src/db/query.rs", "line": 42, "bug": "SQL injection" },
+  { "pr": "owner/repo#1", "file": "src/parser.rs", "line": 128, "bug": "unwrap on None" },
+  { "pr": "owner/repo#1", "file": "src/handlers/user.rs", "line": 63, "bug": "missing null check" },
+  { "pr": "owner/repo#1", "file": "src/config.rs", "line": 19, "bug": "hardcoded secret" },
+  { "pr": "owner/repo#1", "file": "src/filters.rs", "line": 211, "bug": "unchecked array index" },
+  { "pr": "owner/repo#1", "file": "src/cache.rs", "line": 74, "bug": "race condition" },
+  { "pr": "owner/repo#1", "file": "src/client.rs", "line": 156, "bug": "wrong comparison operator" },
+  { "pr": "owner/repo#1", "file": "src/routes/admin.rs", "line": 98, "bug": "resource leak" },
+  { "pr": "owner/repo#1", "file": "src/middleware.rs", "line": 27, "bug": "missing auth check" }
+]

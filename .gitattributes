@@ -1,0 +1,5 @@
+# Normalise text in the repo, check it out with the platform default.
+* text=auto
+
+# Shell scripts must keep LF: a CRLF shebang gives bash "bad interpreter".
+*.sh text eol=lf
